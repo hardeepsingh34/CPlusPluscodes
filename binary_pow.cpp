@@ -47,4 +47,5 @@ int main(){
     cout<<"enter a number"<<endl;
     cin>>n;
     binary(n);
+    cout<<"hello";
 }
