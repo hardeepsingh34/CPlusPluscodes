@@ -1,5 +1,8 @@
 #include<iostream>
 using namespace std;
+/*
+Inline function 
+*/
 inline int getmax(int& a, int& b){
     return (a>b)? a:b;
 

@@ -1,6 +1,9 @@
 #include<iostream>
 #include<vector>
 #include<algorithm>
+/*
+find sum of two array 
+*/
 using namespace std;
 vector<int> reverse(vector<int>a){
  int s=0;
@@ -52,7 +55,7 @@ int main(){
    vector<int> b;
    a= {1,3,4,5,6,7,8};
    b= {9,9,5,5,9,1,4,2};
-   vector<int>c= findArraySum(a,b) ;
+   vector<int>c= findArraySum(a,b);
    for(int i:c){
     cout<<i<<"  ";
    }

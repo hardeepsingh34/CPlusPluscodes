@@ -14,7 +14,7 @@ class Node{
 //function to insert element at tail
 void insertAttail(Node* &tail, int data){
     if(tail== NULL){
-        Node* temp = new Node(data);
+        Node* temp = new Node(data);                               
         tail = temp;
         temp->next = NULL;
     }

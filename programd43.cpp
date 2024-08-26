@@ -24,7 +24,7 @@ return 1;
 }
 int main(){
 char a[20];
-cout<<"enter any letter "<<endl;
+cout<<"enter any word "<<endl;
 cin.getline(a ,20);
 cout<<checkPalindrome(a)<<endl;
 if(checkPalindrome(a)){
@@ -32,5 +32,4 @@ if(checkPalindrome(a)){
 }else{
     cout<<"given letter is not palindrome "<<endl;
 }
-
 }

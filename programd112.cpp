@@ -1,5 +1,8 @@
 #include<iostream> 
 using namespace std;
+/*
+static variables 
+*/
 class hero{
     public:
     static int timeToComplete ;

@@ -36,7 +36,7 @@ hero1.setname("babbar");
 hero1.print();
 hero hero2(hero1);
 hero2.print();
-hero1.name[0] ='g';
+// hero1.name[0] ='g';
 cout<<endl<<"hero1 "<<endl<<endl;
 hero1.print();
 cout<<endl<<"hero2 "<<endl<<endl;

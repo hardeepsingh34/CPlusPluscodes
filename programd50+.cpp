@@ -33,7 +33,7 @@ using namespace std;
         string s ;
         cout<<"enter  a string "<<endl;
         cin>>s;
-         cout<<removeDuplicates(s);
+         cout<<removeDuplicates(s); 
          //s.erase(1,2);
          //s.erase(s.begin()+2);
         // cout<<s;

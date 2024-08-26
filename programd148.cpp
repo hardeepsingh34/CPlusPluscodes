@@ -28,9 +28,8 @@ void printarr(vector<int> arr, int n){
 }
 int main(){
 vector<int> a;
-a={2,1,4,5,4,3,2};
-printarr(a,7);
-vector<int>b; 
-b= nextsmallerelement(a,7);
-printarr(b,7);
+a={2,1,4,5,4,3,2,0};
+printarr(a,8);
+vector<int>b; b= nextsmallerelement(a,8);
+printarr(b,8);
 }

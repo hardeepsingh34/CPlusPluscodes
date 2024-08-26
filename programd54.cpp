@@ -18,5 +18,4 @@ int largestsum(int arr[][4], int n){
 int main(){
     int arr[3][4]={1,3,31,4,5,6,7,8,9,10,11,12};
     cout<<largestsum(arr,3);
-
 }

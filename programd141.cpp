@@ -31,8 +31,9 @@ ans.push(32);
 ans.push(443);
 ans.push(13);
 ans.push(5);
-printstack(ans, 8);
-deleteMiddle(ans, 8);
+ans.push(4);
+printstack(ans, 9);
+deleteMiddle(ans, 9);
 cout<<"resultant stack is "<<endl;
 printstack(ans, 8);
 }

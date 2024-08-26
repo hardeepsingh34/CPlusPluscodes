@@ -3,10 +3,10 @@
 using namespace std;
  bool searchMatrix(vector<vector<int>>& matrix, int target) {
        int s1=0, e1= matrix[0].size()-1;
-      int s=0, e= matrix.size()-1;
-      int m=0;
-
-        while(s<=e){
+      int s=0, e= matrix.size()-1;    
+      int m=0; 
+ 
+        while(s<=e){           
              m= s+(e-s)/2;
              
             if(matrix[m][0]==target){
@@ -16,7 +16,7 @@ using namespace std;
             }else{
                 e=m;
             }
-        }
+        } 
         
       
         cout<<m;cout<<"m is "<<m<<endl;
