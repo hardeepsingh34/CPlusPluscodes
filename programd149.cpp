@@ -46,6 +46,7 @@ int largestRectangleArea(vector<int>&height){
 
  vector<int>prev(n);
  prev= prevSmallestElement(height,n);
+ print(prev);
  int area = -1;
  for(int i=0; i<n; i++){
   int l = height[i];

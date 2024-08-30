@@ -30,4 +30,4 @@ int main(){
     if(bt == NULL){
       bt->left=bt-> right = NULL;     
       cout<<"hello world "<<endl;
-    }     
+    }   }  
