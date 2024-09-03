@@ -1,8 +1,9 @@
 #include<iostream>
 using namespace std;
 struct petrolpump{
-    int petrol;
     int distance;
+    int petrol;
+    
 };
 class solution{
     public:
@@ -26,8 +27,15 @@ class solution{
     }
 };
 int main(){
-petrolpump p;
-p={
-};
+  
+petrolpump p[]={
+    {4,6},
+    {6,5},
+    {7,6},
+    {4,5}
+    };
+solution s;
+cout<<s.tour(p, 4);
+
 
 }
