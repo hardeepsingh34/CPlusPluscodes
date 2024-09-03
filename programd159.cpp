@@ -2,7 +2,7 @@
 #include<vector>
 #include<deque>
 using namespace std;
-vector<long long > printFirstNegativeInteger(long long int A[], long long int N, long long int K){
+vector<long long> printFirstNegativeInteger(long long int A[], long long int N, long long int K){
 deque<long long int> dq;
 vector<long long >ans;
 //process first window of k size 
