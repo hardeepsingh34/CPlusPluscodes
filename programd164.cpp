@@ -15,7 +15,7 @@ int solve(int *arr, int n, int k){
         mini.push_back(i);
     }
     int ans = 0;
-    ans += arr[maxi.front()]+ arr[mini.front()];
+    ans += arr[maxi.front()] + arr[mini.front()];
     // remaining windows k process karlo
     for(int i=k; i<n; i++){
         //next window

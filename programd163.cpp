@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std; 
+// implementing k queues in n size of array
 class kQueue{
     int n;
     int k;

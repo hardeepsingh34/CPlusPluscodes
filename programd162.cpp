@@ -1,10 +1,11 @@
 #include<iostream>
 using namespace std;
+
 struct petrolpump{
     int distance;
     int petrol;
-    
 };
+
 class solution{
     public:
     int tour(petrolpump p[], int n){
@@ -27,7 +28,6 @@ class solution{
     }
 };
 int main(){
-  
 petrolpump p[]={
     {4,6},
     {6,5},
