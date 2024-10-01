@@ -1,19 +1,53 @@
 #include<iostream>
 #include<queue>
+#include<map>
 #include<vector>
 using namespace std;
-// left traversal of binary tree
+// top view of binary tree;
 class Node{
     public:
     int data;
     Node* left;
     Node* right;
     Node(int d){
-        this->data= d;
-        this->left = NULL;
-        this->right= NULL;
+        this->data = d;
+        this-> left = NULL;
+        this-> right =NULL;
     }
 };
+vector<int> topview(Node* root){
+  vector<int>ans;
+  if(root == NULL){
+    return ans;
+  }
+  map<int, int> topNode;
+  queue<pair<Node*, int>>q;
+
+  q.push(make_pair(root,0));
+
+  while(!q.empty()){
+ 
+    pair<Node*,int>temp = q.front();
+    q.pop();
+    Node* frontNode = temp.first;
+    int hd = temp.second;
+    //if one value is present for a hd , then do nothing;
+    if(topNode.find(hd) == topNode.end()){
+      cout<<"topNode-> "<<topNode[hd]<<endl;
+    topNode[hd] = frontNode->data;
+    }
+
+    if(frontNode->left)
+    q.push(make_pair(frontNode->left, hd-1));
+
+    if(frontNode->right)
+    q.push(make_pair(frontNode->right, hd+1));
+  }
+  for(auto i:topNode){
+    ans.push_back(i.second);
+  }
+  return ans;
+}
 void buildFromLevelOrder(Node * &root){
     queue<Node *>q;
     cout<<"Enter data for root "<<endl;
@@ -37,40 +71,19 @@ void buildFromLevelOrder(Node * &root){
         cin>>rightdata;
         if(rightdata != -1){
             temp->right = new Node(rightdata);
-            q.push(temp->right);;
+            q.push(temp->right);
         }
     }
-
 }
-void solve(Node* root, vector<int> &ans,  int level ){
-    // base case
-    if(root== NULL)
-    return;
-
-    // we entered into new level
-    if(level == ans.size())
-    ans.push_back(root->data);
-    
-    solve(root->left, ans, level+1);
-    solve(root->right, ans, level+1);
-}
-vector<int> leftview(Node* root){
-    vector<int>ans;
-    solve(root, ans, 0);
-    return ans;
-}
-void printvector(vector<int> v){
-    for(int i =0; i<v.size(); i++){
-        cout<<v[i]<<" ";
-    }
-}
- int main(){
-    
-    Node * root = NULL;
+int main(){
+    Node* root= NULL;
     buildFromLevelOrder(root);
+    
    // tree data  5  10  12  13  19  40  -1 -1 -1 -1 -1 -1 -1 
    // TREE DATA 12 13 40 5 -1 29 8 9 -1 10 7 2 1 -1 -1 -1 -1  -1 -1 -1 -1 -1 -1
-   vector<int> ans;
-   ans = leftview(root);
-   printvector(ans);
- }
+   vector<int>ans;
+    ans = topview(root);
+   for(auto i:ans){
+    cout<<i<<" ";
+   }
+}

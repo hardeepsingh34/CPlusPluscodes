@@ -2,6 +2,7 @@
 #include<vector>
 #include<queue>
 using namespace std;
+// zig-zag traversal
 class Node{
     public:
     int data;

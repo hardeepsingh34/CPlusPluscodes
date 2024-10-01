@@ -69,7 +69,9 @@ class solution{
 int main(){
     Node* root1 = NULL;
     Node* root2= NULL ;
+    cout<<"\nenter data for first tree "<<endl;
     buildFromLevelOrder(root1);
+    cout<<"\nenter data for second tree"<<endl;
     buildFromLevelOrder(root2);
     // tree data  5  10  12  13  19  40  -1 -1 -1 -1 -1 -1 -1 
     solution s;

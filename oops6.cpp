@@ -7,7 +7,7 @@ class complexnumber{
     float imaginarypart;
     public:
     void setComplexnumber(float real, float imaginary){
-        realpart= real;
+        realpart= real; 
         imaginarypart= imaginary;
     }
     void displayComplexnumber(){

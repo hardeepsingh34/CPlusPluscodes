@@ -1,6 +1,7 @@
 #include<iostream>
 #include<queue>
 using namespace std;
+//given a binary tree , find if it's height balanced or not.
 class Node{
     public:
     int data;

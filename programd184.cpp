@@ -1,20 +1,21 @@
 #include<iostream>
-#include<vector>
+#include<algorithm>
+#include<climits>
 #include<queue>
 using namespace std;
-// right view of binary tree:
+// sum of the longest bloodline of a binary tree
 class Node{
     public:
     int data;
-    Node* left;
+    Node*left;
     Node* right;
     Node(int d){
-        this->data= d;
-        this->left= NULL;
-        this->right=NULL;
+        this->data = d;
+        this-> right = NULL;
+        this->left = NULL;
     }
 };
-void buildFromLevelOrder(Node * &root){ 
+void buildFromLevelOrder(Node * &root){
     queue<Node *>q;
     cout<<"Enter data for root "<<endl;
     int data;
@@ -41,35 +42,37 @@ void buildFromLevelOrder(Node * &root){
         }
     }
 }
-void printvector(vector<int> v){
-    for(int i =0; i<v.size(); i++){
-        cout<<v[i]<<" ";
-    }
-}
-void solve(Node* root, vector<int>& ans, int level){
-    // base case
+void solve(Node* root, int sum, int &maxsum, int len, int &maxlen){
+    //base case
     if(root == NULL){
+        if(len > maxlen){
+            maxlen = len;
+            maxsum = sum;
+        }else if(len == maxlen){
+            maxsum = max(sum,maxsum);
+        }
         return;
     }
-
-    if(level == ans.size())
-    ans.push_back(root->data);
-
-    solve(root->right, ans, level+1);
-    solve(root->left, ans, level+1);
-    
+    sum = sum+root->data;
+    solve(root-> left, sum, maxsum, len+1 , maxlen);
+    solve(root->right, sum, maxsum, len+1 , maxlen);
 }
-vector<int> rightview(Node* root){
-    vector<int>ans;
-     solve(root, ans, 0);
-     return ans;
+int sumofRootToLeafPath(Node* root){
+    int len =0;
+    int maxlen= 0;
+    int sum = 0;
+    int maxsum = INT_MIN;
+
+    solve(root, sum , maxsum, len, maxlen);
+    return maxsum; 
 }
 int main(){
-       Node * root = NULL;
-buildFromLevelOrder(root);
+    Node* root = NULL;
+    buildFromLevelOrder(root);
+    int sum;
    // tree data  5  10  12  13  19  40  -1 -1 -1 -1 -1 -1 -1 
    // TREE DATA 12 13 40 5 -1 29 8 9 -1 10 7 2 1 -1 -1 -1 -1  -1 -1 -1 -1 -1 -1
-   vector<int> ans;
-   ans = rightview(root);
-   printvector(ans);
+    sum = sumofRootToLeafPath(root);
+    cout<<"sum of longest bloodline of given binary tree is : "<<sum<<endl;
+
 }

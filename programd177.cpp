@@ -2,6 +2,7 @@
 #include<vector>
 #include<queue>
 using namespace std;
+// boundary traversal of tree
 class Node{
     public:
     int data;

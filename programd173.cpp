@@ -2,6 +2,7 @@
 #include<utility>
 #include<queue>
 using namespace std;
+// more optimized solution for binary tree balancing
 class Node{
     public:
     int data;

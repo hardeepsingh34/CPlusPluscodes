@@ -2,6 +2,9 @@
 #include<utility>
 #include<queue>
 using namespace std;
+// given a  binary tree return ture if , for every node X in the 
+// tree other than the leaves, its value is equal to the
+// sum of its left subtree's values and its right subtree's value.
 class Node{
    public:
    int data;
