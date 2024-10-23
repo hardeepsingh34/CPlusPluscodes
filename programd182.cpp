@@ -26,7 +26,7 @@ vector<int> bottomview(Node* root){
 
   q.push(make_pair(root,0));
 
-  while(!q.empty()){
+  while(!q.empty()){ 
  
     pair<Node*,int>temp = q.front();
     q.pop();

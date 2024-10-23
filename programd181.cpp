@@ -31,9 +31,9 @@ vector<int> topview(Node* root){
     q.pop();
     Node* frontNode = temp.first;
     int hd = temp.second;
-    //if one value is present for a hd , then do nothing;
+    //if one value is present for a hd , then do nothing; 
     if(topNode.find(hd) == topNode.end()){
-      cout<<"topNode-> "<<topNode[hd]<<endl;
+      cout<<"topNode-> "<<topNode[hd]<<endl; 
     topNode[hd] = frontNode->data;
     }
 
