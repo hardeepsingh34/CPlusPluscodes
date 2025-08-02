@@ -1,6 +1,13 @@
 #include<iostream>
 #include<map>
 using namespace std;
+/*
+The std::map is a fundamental part of the C++ Standard Template Library (STL),
+providing a sorted associative container that maintains key-value pairs with
+unique keys. The keys in a map are sorted using a comparison function, which
+allows efficient searching, insertion, and deletion operations—typically with
+logarithmic complexity.
+*/
 int main(){
     map<int,string>m;
     m[1]= "babbar ";

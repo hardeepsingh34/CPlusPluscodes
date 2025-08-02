@@ -5,7 +5,10 @@ using namespace std;
 //reverse first k elements of queue
 queue<int> modifyQueue(queue<int>q ,int k){
     // step 1: pop first k element from q and put into stack;
+<<<<<<< HEAD
     // SSER 
+=======
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb
     stack<int>s;
     for(int i =0; i<k; i++){
         int val = q.front();

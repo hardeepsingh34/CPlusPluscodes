@@ -22,10 +22,10 @@ int main(){
         n = n >>1;
         if(a==1){
             bns = bns  +(a* (power(10,count) ));
-            ans = ans  +(b*(power(10,count)));
+            ans = ans;
         }else{
                 w = count;
-            bns = bns +(b*power(10,count));
+            bns = bns;
             ans = ans +(c*power(10,count));
         }
         count = count +1;
@@ -37,6 +37,5 @@ int main(){
     cout<<"binary conversion of "<< n << " is :"<<bns<<endl;
     cout<<"complement of "<< n <<" is :";
     printZero(w,count);
-    cout<<ans<<endl;
-   
+    cout<<ans<<endl;  
 }

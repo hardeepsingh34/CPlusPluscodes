@@ -1,7 +1,10 @@
 #include<iostream>
 #include<queue>
 using namespace std;
+<<<<<<< HEAD
 // used to find lowest common ancestor for given two number with binary tree->
+=======
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb
  class Node{
      public:
     int data;
@@ -22,15 +25,24 @@ using namespace std;
       return root;}
       Node* leftAns = lca(root-> left , n1, n2);
       Node* rightAns = lca(root->right , n1, n2);
+<<<<<<< HEAD
      
+=======
+      
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb
       if(leftAns != NULL && rightAns != NULL){
         return root;
       }
       else if(leftAns != NULL && rightAns == NULL){
+<<<<<<< HEAD
         cout<<leftAns->data<<endl;
            return leftAns;
       }else if(leftAns == NULL && rightAns != NULL){
         cout<<rightAns->data<<endl;
+=======
+           return leftAns;
+      }else if(leftAns == NULL && rightAns != NULL){
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb
         return rightAns;
       }else{
         return NULL;

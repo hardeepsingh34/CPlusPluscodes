@@ -50,7 +50,10 @@ void solve(Node* root, int sum, int &maxsum, int len, int &maxlen){
             maxsum = sum;
         }else if(len == maxlen){
             maxsum = max(sum,maxsum);
+<<<<<<< HEAD
             // cout<<maxsum<<endl;
+=======
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb
         }
         return;
     }
@@ -72,7 +75,11 @@ int main(){
     buildFromLevelOrder(root);
     int sum;
    // tree data  5  10  12  13  19  40  -1 -1 -1 -1 -1 -1 -1 
+<<<<<<< HEAD
    // TREE DATA 12 13 40 5 -1 29 8 9 -1 10 7 2 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+=======
+   // TREE DATA 12 13 40 5 -1 29 8 9 -1 10 7 2 1 -1 -1 -1 -1  -1 -1 -1 -1 -1 -1
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb
     sum = sumofRootToLeafPath(root);
     cout<<"sum of longest bloodline of given binary tree is : "<<sum<<endl;
 

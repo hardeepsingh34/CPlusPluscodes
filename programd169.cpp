@@ -2,7 +2,10 @@
 #include<queue>
 using namespace std;
 // returns the number of leaf nodes 
+<<<<<<< HEAD
 //asdfere aserff 
+=======
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb
 class node{
     public:
 int data;
@@ -11,7 +14,11 @@ node * right;
 node(int d){
     this->data =d;
     this->left= NULL;
+<<<<<<< HEAD
     this->right= NULL; 
+=======
+    this->right= NULL;
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb
 }
 };
 void buildFromLevelOrder(node * &root){

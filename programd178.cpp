@@ -73,4 +73,8 @@ void printvector(vector<int> v){
    vector<int> ans;
    ans = leftview(root);
    printvector(ans);
+<<<<<<< HEAD
  }   
+=======
+ }
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb

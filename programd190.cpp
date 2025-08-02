@@ -22,8 +22,11 @@ class solution{
     }
     Node* solve(int in[], int pre[], int index , int inorderStart, int inorderEnd, int n, map<int,int>&nodeToIndex){
         // base case
+<<<<<<< HEAD
         // this si base case listen to me
         //thi sis ohj base case 
+=======
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb
         if(index >= n || inorderStart > inorderEnd){
             return NULL;
         }
@@ -31,7 +34,10 @@ class solution{
         Node* root = new Node(element);
         int position = nodeToIndex[element];
         //recursive calls
+<<<<<<< HEAD
 
+=======
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb
         root->left = solve(in, pre , index, inorderStart , position-1 ,n, nodeToIndex);
         root->right = solve(in ,pre , index , inorderStart, position+1, inorderEnd, nodeToIndex);
         return root;
@@ -40,7 +46,10 @@ class solution{
         int preorderIndex = 0; 
         map<int, int> nodeToIndex;
         //create nodes to index mapping
+<<<<<<< HEAD
         // destructre
+=======
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb
         createMapping(in, nodeToIndex, n);
 
         Node* ans = solve(in, pre ,preorderIndex, 0,1, n-1, nodeToIndex);
@@ -63,4 +72,8 @@ int in[] = {1,2,3,4,5,6};
 int pre[] ={4,2,1,3,5,6};
 solution s;
 root =s.buildTree(in, pre, 6);
+<<<<<<< HEAD
 } 
+=======
+}
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb

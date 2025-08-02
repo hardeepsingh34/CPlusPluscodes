@@ -67,9 +67,14 @@ void buildFromLevelOrder(Node * &root){
 }
 int main(){
 Node* root;
+<<<<<<< HEAD
 solution s; 
 buildFromLevelOrder(root);
 //sdf
+=======
+solution s;
+buildFromLevelOrder(root);
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb
 cout<<"diameter of given tree is : "<<s.diameter(root)<<endl;
 
 }

@@ -1,5 +1,11 @@
 #include<iostream>
 #include<deque>
+/*
+Deque is a sequence container that allows for fast insertion and deletion at both
+the beginning and the end. Unlike vectors, deques are not guaranteed to store
+all elements in contiguous storage locations, which means accessing elements
+by offsetting a pointer to another element is undefined behavior.
+ */
 using namespace std;
 int main(){
 deque<int> a;

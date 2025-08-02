@@ -7,7 +7,11 @@ class queue{
     int size;
     public:
     queue(){
+<<<<<<< HEAD
         size = 100001; 
+=======
+        size = 100001;
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb
         arr = new int[size];
         qfront= 0;
         rear= 0;
@@ -54,4 +58,10 @@ cout<<q.dequeue()<<endl;
 cout<<q.dequeue()<<endl;
 cout<<q.dequeue()<<endl;
 cout<<q.dequeue()<<endl;
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb
 }

@@ -15,7 +15,7 @@ bool ispossible(int stall[], int size ,int k, int mid){
    }
     return false;
    
-}
+} 
 int aggresiveCow( int arr[], int size,int k){
     int s=0;
     int a = -1;
@@ -41,7 +41,7 @@ int aggresiveCow( int arr[], int size,int k){
     return ans;
 } 
 int main(){
-    int arr[5]={1,2,3,5,6};
+    int arr[5]={1,2,3,5,6}; 
     cout<<aggresiveCow(arr , 5 , 3);
 
 }

@@ -140,7 +140,7 @@ void reverse(node* &head,node* &tail, node* curr, node* prev= NULL){
 if(curr == NULL){
  tail = head;
  head = prev;
- return;
+ return; 
 }
 node*forward= curr->next;
     reverse(head ,tail , forward ,curr);
@@ -159,14 +159,14 @@ node* reverse2(node* head,node* &tail){
     tail -> prev = NULL;
     return h;
 }
-/*node* reverse3(node* tail){
+/*node* reverse3(node* tail){ 
     //base case 
     if(tail-> prev == NULL || tail ==NULL){
         return tail;
     }
     node* h =reverse3(tail -> prev);
     tail -> prev -> prev = tail ;
-    tail -> prev = NULL;
+    tail -> prev = NULL;   
     return h;
 }*/
 int main(){

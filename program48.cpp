@@ -13,7 +13,7 @@ int setbit(int a){
 }
 int main(){
     int a,b,c;
-    cout<<"enter two nubmer"<<endl;
+    cout<<"enter two number"<<endl;
     cin>>a>>b;
    c= setbit(a)+setbit(b);
    cout<<"number of set bit in a and b is :"<<c<<endl;

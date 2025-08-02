@@ -32,6 +32,10 @@ int findMinimumCost(string str){
     return ans;
 }
 int main(){
+<<<<<<< HEAD
 string s = "}{{{}}}}";
+=======
+string s = "}{{{{{}}}}}";
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb
 cout<<findMinimumCost(s);
 }

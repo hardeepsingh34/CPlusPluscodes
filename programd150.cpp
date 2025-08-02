@@ -36,7 +36,10 @@ class solution{
 
         if(zerocount!=n){
             return -1;
+<<<<<<< HEAD
             
+=======
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb
         }
         int onecount = 0;
         for(int i=0; i<n; i++){
@@ -61,4 +64,8 @@ vector<vector<int>>arr={
 solution s;
 int c = s.celebrity(arr, 6);
 cout<<c;
+<<<<<<< HEAD
 }   
+=======
+}
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb

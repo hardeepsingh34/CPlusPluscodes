@@ -40,7 +40,10 @@ void LevelOrderTraversal(node* root){
             cout<<endl;
             if(!q.empty()){
                 // queue still has some child nodes
+<<<<<<< HEAD
                 // adfd 
+=======
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb
                 q.push(NULL);
             }
         }else{

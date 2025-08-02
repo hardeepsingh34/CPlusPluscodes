@@ -15,5 +15,4 @@ int main(){
       update(dost ,3);
       cout<<endl<<"array after"<<endl;
       printArr(dost ,3);
-
 }

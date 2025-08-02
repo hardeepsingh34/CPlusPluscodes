@@ -1,6 +1,13 @@
 #include<iostream>
 #include<vector>
 using namespace std;
+/*
+Vectors in C++ are dynamic arrays that can resize automatically when an element
+is inserted or deleted. They are part of the C++ Standard Template Library (STL)
+and provide a way to store elements of the same data type. Vectors are known for 
+their ability to handle automatic storage management, which includes expanding and
+contracting as needed.
+*/
 int main(){
     vector<int>v;
     cout<<v.capacity()<<endl;

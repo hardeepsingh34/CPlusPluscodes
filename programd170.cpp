@@ -46,8 +46,11 @@ void buildFromLevelOrder(node * &root){
             q.push(temp->left);
         }
         cout<<"Enter right node for : "<<temp->data<<endl;
+<<<<<<< HEAD
         cout<<"data in temp is "<<temp-> data<<endl;
     
+=======
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb
         int rightdata;
         cin>>rightdata;
         if(rightdata != -1){
@@ -62,4 +65,8 @@ node * root = NULL;
 solution s;
 buildFromLevelOrder(root);
 cout<<"Height of given tree is : "<<s.height(root)<<endl;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb
 }

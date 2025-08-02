@@ -6,6 +6,9 @@ using namespace std;
 #define ELE 1,\
 2,\
 3
+/*
+Ternary oprations 
+*/
 #define min(a,b) (((a)<(b))?(a):(b))
 int main(){
 cout<<Date<<endl;

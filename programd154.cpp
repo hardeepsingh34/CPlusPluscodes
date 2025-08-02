@@ -20,4 +20,8 @@ if(q.empty()){
 }else{
     cout<<"queue is not empty"<<endl;
 }
+<<<<<<< HEAD
 }  
+=======
+}
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb

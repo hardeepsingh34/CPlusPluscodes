@@ -25,5 +25,4 @@ int main(){
      printvector(a);
     reverseArr(a, -1);
     printvector(a);
-
 }

@@ -66,7 +66,11 @@ class solution{
        }
     }
 };
+<<<<<<< HEAD
 int main(){ 
+=======
+int main(){
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb
     Node* root1 = NULL;
     Node* root2= NULL ;
     cout<<"\nenter data for first tree "<<endl;
@@ -74,7 +78,10 @@ int main(){
     cout<<"\nenter data for second tree"<<endl;
     buildFromLevelOrder(root2);
     // tree data  5  10  12  13  19  40  -1 -1 -1 -1 -1 -1 -1 
+<<<<<<< HEAD
     // ER
+=======
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb
     solution s;
    if(s.isIdentical(root1, root2)) {
     cout<<"both the given trees are identical "<<endl;

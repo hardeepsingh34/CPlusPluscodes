@@ -27,7 +27,11 @@ bool findRedundentBrackets(string &s){
     } return false;
 }
 int main(){
+<<<<<<< HEAD
 string s = "((a*b)+b)";
+=======
+string s = "((a*b)+b)"; 
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb
 if(findRedundentBrackets(s)== true){
     cout<<endl<<endl;
     cout<<"given string is redudent means invalid bracket\n\n\n ";

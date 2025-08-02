@@ -7,7 +7,7 @@ class one{
     int a;
     public:
     void setdata( int x){
-        a =x;
+        a =x; 
     }
     void showdata(two);  // cannot provide definition here
 };

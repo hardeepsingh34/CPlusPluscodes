@@ -12,7 +12,10 @@ for(int i=0; i<K; i++){
     }
 }
 // store answer of first K sized window
+<<<<<<< HEAD
 // this is 
+=======
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb
 if(dq.size() > 0){
     ans.push_back(A[dq.front()]);
 }else{
@@ -25,12 +28,18 @@ for(int i=K; i<N; i++){
         dq.pop_front();
     }
     // addition
+<<<<<<< HEAD
     // 
+=======
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb
     if(A[i]<0){
         dq.push_back(i);
     }
     //ans store
+<<<<<<< HEAD
 
+=======
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb
     if(dq.size()>0){
         ans.push_back(A[dq.front()]);
     }else{

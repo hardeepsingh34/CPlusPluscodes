@@ -30,7 +30,7 @@ if(bl ==1){
 }
 int main(){
     int n;
-    cout<<"enter a number"<<endl;
+    cout<<"enter a binary number"<<endl;
     cin>>n;
     cout<<"decimal representation of "<< n<<" is : "<<decimal(n)<<endl; 
   

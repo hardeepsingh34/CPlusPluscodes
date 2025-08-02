@@ -77,10 +77,12 @@ insertNode(tail , 5, 8);
 insertNode(tail, 8, 10);
 insertNode(tail, 10 ,30);
 insertNode(tail, 30,77);
+insertNode(tail, 77, 22);
 
 printCLL(tail->next);
 cout<<tail->data<<endl;
 Node* temp = splitCLL(tail);
-printCLL(temp);
 printCLL(tail);
+printCLL(temp);
+
 }

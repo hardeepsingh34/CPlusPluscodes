@@ -73,5 +73,9 @@ int main(){
    int ans =s.getMax(root);
    cout<<"The Maximum sum of Non-adjacent nodes is "<<ans<<endl;
 
+<<<<<<< HEAD
 }
 
+=======
+}
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb

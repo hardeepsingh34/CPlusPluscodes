@@ -1,9 +1,9 @@
 #include<iostream>
 using namespace std;
 int main(){
-    // problem question by lovebabber
+    // problem questioned by lovebabber
     int a, b=1;
-    a=10;
+    a=0;
     if(a){
         cout<<b;
     }else{

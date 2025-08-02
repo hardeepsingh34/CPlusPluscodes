@@ -71,11 +71,8 @@ void printLL(Node* head){
     cout<<endl<<endl;
     while(temp != NULL){
         printbottom(temp);
-        cout<<endl<<":";
-        cout<<endl<<"v"<<endl<<endl;
         temp = temp ->next;
     }
-    cout<<"x"<<endl;
 }
 int main(){
 Node* head = NULL;

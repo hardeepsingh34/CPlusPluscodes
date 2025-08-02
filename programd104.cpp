@@ -1,8 +1,11 @@
 #include<iostream>
 #include<vector>
 using namespace std;
+/*
+Rat maze problem
+*/
 bool isSafe(int x ,int y , int n, vector<vector<int>>visited, vector<vector<int>>m){
-    if(x>=0 && x<n &&y>=0&& y<n && visited[y][x]==0 && m[y][x]==1){
+    if(x>=0 && x<n &&y>=0&& y<n && visited[y][x]==0 && m[y][x]==1){ 
         return true;
     }else{
         return false;

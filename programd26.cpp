@@ -1,5 +1,9 @@
 #include<iostream>
 #include<list>
+//list is sequence container that allows for efficient 
+//insertion and deletion of elements from anywhere in the container
+// It is typically implemented as a doubly-linked list,
+// offering constant time insertions and deletions, and bidirectional iteration
 using namespace std;
 int main(){
 list<int> a;

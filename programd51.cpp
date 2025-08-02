@@ -26,7 +26,7 @@ using namespace std;
 int main(){
       vector<char>s;
       cout<<"enter a string "<<endl;
-     s={'a' , 'a' , 'b' ,'b' , 'c' , 'c' , 'c'};
+     s={'a' , 'a' , 'b' ,'b' , 'c' , 'b' , 'c'};
       int n=compress(s);
       cout<<n<<endl;
       for(int i=0; i<n;i++){  

@@ -64,5 +64,5 @@ int main(){
      st.pop(); 
     cout<<st.peek()<<endl;
      st.pop(); 
-    cout<<st.peek()<<endl;
+    cout<<st.peek()<<endl;      
 }

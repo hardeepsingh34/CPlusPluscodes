@@ -14,7 +14,10 @@ string FirstNonRepeating(string A){
         char ch = A[i];
 
         // increase count 
+<<<<<<< HEAD
         // ds
+=======
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb
         count[ch]++;
 
         //queue me push karo

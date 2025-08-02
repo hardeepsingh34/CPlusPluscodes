@@ -1,5 +1,8 @@
 #include<iostream>
 using namespace std;
+/* 
+Itroducing pointer :-
+*/
 int main(){
 //    int n=5;
 //     cout<<&n<<endl;
@@ -20,6 +23,4 @@ int main(){
     int i=4;
     ptr=&i;
     cout<<ptr;
-
-
 }

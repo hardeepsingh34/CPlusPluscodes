@@ -1,6 +1,12 @@
 #include<iostream>
 #include<queue>
 using namespace std;
+/*
+In C++, a queue is a container adaptor that provides FIFO (First-In, First-Out)
+data structure behavior. The std::queue class template acts as a wrapper to an
+underlying container, typically std::deque or std::list. This means that elements
+are inserted at the back and removed from the front.
+*/
 int main(){
 priority_queue<int >maxi;
 priority_queue<int,vector<int>,greater<int>>mini;

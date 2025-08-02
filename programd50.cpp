@@ -29,6 +29,7 @@ using namespace std;
         string s ;
         cout<<"enter  a string "<<endl;
         cin>>s;
+        s= removeDuplicates(s);
        s.erase(1, 1);
        cout<<s;
     }

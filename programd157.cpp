@@ -44,7 +44,10 @@ bool pushFront(int x){
 }
 bool pushRear(int x){
     // check full or not 
+<<<<<<< HEAD
     // HER ISF 
+=======
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb
     if( isFull()){
         cout<<"deque is full"<<endl;
         return false;

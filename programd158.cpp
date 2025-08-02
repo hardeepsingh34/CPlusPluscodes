@@ -4,8 +4,11 @@
 using namespace std;
 // reversing a queue using a stack  ;
 // so space complexity is O(n);
+<<<<<<< HEAD
 // AD  ER // #INCLUDE <IOSTREAM>
 // 
+=======
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb
 queue<int> reverse(queue<int>q){
     stack<int>s;
     while(!q.empty()){
@@ -33,7 +36,10 @@ q.push(5);
 q.push(6);
 q.push(7);
 q.push(9);
+<<<<<<< HEAD
 
+=======
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb
 queue<int>ans;
 cout<<"queue before reverse :";
 printqueue(q);

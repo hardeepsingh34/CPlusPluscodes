@@ -1,4 +1,8 @@
+<<<<<<< HEAD
  #include<iostream>
+=======
+#include<iostream>
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb
 #include<deque>
 using namespace std;
 int solve(int *arr, int n, int k){

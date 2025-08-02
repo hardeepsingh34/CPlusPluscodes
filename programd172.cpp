@@ -50,7 +50,10 @@ void buildFromLevelOrder(Node * &root){
         int right = height(node-> right);
 
         int ans = max(left, right)+1;
+<<<<<<< HEAD
         // ALTU FALTU AYI BLA KO TAL TU 
+=======
+>>>>>>> 457d28697b29a48769d0a3149b54e9d1b453ecfb
         return ans;
     }
 bool isbalanced(Node* root){
