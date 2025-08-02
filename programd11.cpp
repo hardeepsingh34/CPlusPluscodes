@@ -8,6 +8,7 @@ int main(){
     while(a!=1){
         n =  n/2;
         a = n ;
+        cout<<"run"<<endl;
     }
     if(n==1){
         cout<<"given number can be written as a power of 2"<<endl;

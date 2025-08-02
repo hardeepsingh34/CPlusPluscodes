@@ -26,7 +26,7 @@ while(k<m){
 int main(){
 int arr1[5]={1,3,5,7,9};
 int arr2[7]={2,4,5,8,10,12,14};
-int arr3[10];
+int arr3[12];
 mergeArr(arr1 ,5 ,arr2 ,7 ,arr3);
 printArr(arr3, 12);
 

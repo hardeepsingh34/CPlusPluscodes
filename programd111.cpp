@@ -36,7 +36,7 @@ int main(){
     h1.print();
     hero h2(h1);
     h2.print();
-    h1.name[0]='g';
+    h1.name[0]='p';
     h1.print();
     h2.print();
 

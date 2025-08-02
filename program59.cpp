@@ -30,11 +30,11 @@ int main(){
      for(int i=0; i<n; i++){
     a=i;
   if((linearSearch(arr ,0, n, a))==2){
-   dost[count]= i;
+   dost[count]= i; 
    count=count +1;
 }
 } 
 
 printArr(dost , count);
-    
+       
 }

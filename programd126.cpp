@@ -5,9 +5,9 @@ class node{
     public:
     int data;
     node* next;
-    // constructor
-    node(int data){
-        this->data= data;
+        // constructor
+        node(int data){ 
+        this->data= data;  
         this->next= NULL;
     }
     ~node(){

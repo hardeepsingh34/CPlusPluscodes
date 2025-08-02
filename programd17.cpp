@@ -5,7 +5,7 @@ bool ispossible(int arr[], int n , int m, int mid){
     int studentCount=1;
     int pagesum =0;
     for(int i=0; i<n; i++){
-        cout<<"1";
+       
        if(pagesum + arr[i]<=mid){
         pagesum += arr[i];
        }else {
@@ -28,7 +28,7 @@ int e =sum;
 int ans = -1;
 int mid;
 while(s<e){
-     cout<<"0";
+    
        mid = s+(e-s)/2;
     if(ispossible(arr,size, n ,mid)){
        ans = mid;

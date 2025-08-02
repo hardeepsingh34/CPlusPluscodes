@@ -22,6 +22,7 @@ void selectionSort(int arr[], int n){
     }
 
     cout<<"after selection sort final answer is : "<<endl;
+    
 }
 int main(){
  int arr[6]={2,4,6,3,1,5};

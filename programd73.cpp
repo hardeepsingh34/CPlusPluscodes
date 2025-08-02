@@ -14,5 +14,6 @@ int main(){
    int i = 10; 
    int  *p2 = &i;
    *p2 = (*p2)*2;
-   cout<<i;
+   cout<<i<<endl;
+   cout<<c;
 }

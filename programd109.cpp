@@ -9,8 +9,8 @@ class hero{
         cout<<"health "<<health<<endl;
         cout<<"level "<<level<<endl;
     }
-    void sethealth(int h){
-        health = h;
+    void sethealth(int health){
+       this->health = health;
     }
     void setlevel(char ch){
         level = ch;

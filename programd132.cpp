@@ -37,7 +37,7 @@ Node* mergeLL(Node* &head1, Node* &head2){
    Node* pointer = newhead;
    Node* prevpointer = NULL;
     while(pointer->next != NULL && temp2 != NULL){
-        
+        cout<<1<<endl;
         if(temp2->data<newhead->data){
             temp2= temp2->next;
             head2->next=newhead;

@@ -4,8 +4,9 @@ class hero{
     private:
     int health;
     char level;
-    string name ;
     public:
+    string name ;
+    
     void print(){
         cout<<"name is "<<name<<endl;
         cout<<"health "<<health<<endl;

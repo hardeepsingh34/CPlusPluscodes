@@ -26,7 +26,8 @@ void sortTwo(int arr[],int size){
      }}
 }
 int main(){
-    int arr[10]={0,2,1,1,2,0,1,2,0,1};
+    cout<<"here we are sorting ones , twos and zeros"<<endl;
+    int arr[10]={0,2,1,1,2,0,0,2,0,1};
     sortTwo(arr,10);
     printArr(arr, 10);
 

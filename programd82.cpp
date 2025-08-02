@@ -12,5 +12,6 @@ int main(){
 int n ;
 cout<<"enter a number "<<endl;
 cin>>n;
+cout<<"2 raise to power "<<n<<" is "<<endl;
 cout<<power(n);
 }

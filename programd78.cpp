@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+// here we learn about ternary operator and define statement :
 #define Date followers
 #define followers 31
 #define ELE 1,\
@@ -12,6 +13,7 @@ int arr[]={ELE};
 for(int i=0; i<3; i++){
     cout<<arr[i];
 }
+
 cout<<endl;
 int a=88;
 int b = 76;

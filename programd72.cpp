@@ -8,6 +8,6 @@ int main(){
     (*ptr)++;
     *ptr =p;
     cout<< *ptr <<" "<<f<<" "<<p<<endl;
-    cout<<sizeof(arr)<<sizeof(ptr)<<endl;
+    cout<<sizeof(arr)<<" "<<sizeof(ptr)<<endl;
     cout<<(arr +1)<<endl;
 }

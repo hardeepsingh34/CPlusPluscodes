@@ -84,7 +84,7 @@ node * removeDuplicates(node *head)
       if((temp->data == temp-> next->data) && temp-> next != NULL){
          node* tempNext = temp->next->next;
             node* nodeToDelete= temp-> next;
-            delete (nodeToDelete);
+            delete (nodeToDelete); 
             temp->next = tempNext;
             cout<<temp->data;
         }else{
@@ -108,7 +108,7 @@ insertAtTail(tail, 40);
 insertAtTail(tail, 40);
 insertAtTail(tail, 80);
 //printLL(head);
-//reverseLL(head,tail);
+//reverseLL(head,tail);23 
 //printLL(head);
 //recursiveReverse(head ,tail, head);
 printLL(head);
@@ -119,3 +119,4 @@ head = removeDuplicates(head);
 cout<<"head data"<<head->data;
 printLL(head);
 }
+                

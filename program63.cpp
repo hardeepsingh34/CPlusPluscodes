@@ -27,6 +27,7 @@ void sortOne(int arr[], int size){
 }
 int main(){
     int arr[7]={0,1,0,0,1,1,0};
+    cout<<"here we are sorting one and zeros"<<endl;
     sortOne(arr, 7);
     printArr(arr,7);
 }

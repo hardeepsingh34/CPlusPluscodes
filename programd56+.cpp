@@ -22,7 +22,7 @@ void spiralprint(vector<vector<int>> &v){
          count++;
     }e--;
     for(int i=e; i>=s && count<n; i--){
-        cout<<v[i][s1]<<" ";
+        cout<<v[i][s1]<<" "; 
          count++;
     }s1++;
    }

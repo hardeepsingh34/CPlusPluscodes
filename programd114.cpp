@@ -8,7 +8,7 @@ class human{
     int age=10; 
     public:
     int getage(){
-        return age;
+        return age;                                                                                                                                                                 
     }
     void setweight(int w){
         this->weight =w;

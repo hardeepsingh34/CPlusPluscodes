@@ -12,5 +12,6 @@ int main(){
     int n;
     cout<<"enter a number "<<endl;
     cin>>n;
+    cout<<"facatorial of "<<n<<" is :"<<endl;
    cout<< factorial(n);
 }

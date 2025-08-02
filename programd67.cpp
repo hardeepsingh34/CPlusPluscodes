@@ -13,5 +13,6 @@ int main(){
     update(p2);
     cout<<"after "<<*p<<endl;
     cout<<p<<endl;
+    cout<< "this is pointer of pointer"<<endl;
     cout<<p2<<endl;
 }
